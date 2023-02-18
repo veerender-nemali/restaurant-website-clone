@@ -1,0 +1,101 @@
+[
+  {
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "id": "fb0cca24-e6af-4130-ba59-3481ab775a98",
+    "meta": {},
+    "state": {
+      "parent": {
+        "id": "",
+        "index": 0
+      },
+      "property": {
+        "styles": {
+          "color": "#fff",
+          "backgroundColor": "#FF7629",
+          "paddingTop": "10px",
+          "paddingLeft": "25px",
+          "paddingBottom": "10px",
+          "paddingRight": "25px",
+          "fontSize": "16px",
+          "borderRadius": "50px",
+          "outline": "none",
+          "fontWeight": 400,
+          "textAlign": "center",
+          "borderWidth": "1px",
+          "borderStyle": "none",
+          "borderColor": "#1890ff",
+          "cursor": "pointer",
+          "userSelect": "none",
+          "fontFamily": "DM Sans"
+        }
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "childId": "fb0cca24-e6af-4130-ba59-3481ab775a98",
+    "refId": "0d724061-2430-45d5-bcb7-bc5002093426"
+  },
+  {
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "id": "ab2416c2-984c-4e1a-ba20-9c8662cb8e2d",
+    "meta": {},
+    "state": {
+      "parent": {
+        "id": "",
+        "index": 0
+      },
+      "property": {
+        "custom": {
+          "text": "Reservate"
+        }
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "childId": "ab2416c2-984c-4e1a-ba20-9c8662cb8e2d",
+    "refId": "0d724061-2430-45d5-bcb7-bc5002093426"
+  },
+  {
+    "id": "4bc3466c-e6b8-4e34-8f30-d3efea4983b3",
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "meta": {},
+    "state": {
+      "parent": {
+        "id": "",
+        "index": 0
+      },
+      "property": {
+        "callbacks": {
+          "onClick": [
+            {
+              "sendEventData": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "refId": "0d724061-2430-45d5-bcb7-bc5002093426",
+    "childId": "4bc3466c-e6b8-4e34-8f30-d3efea4983b3"
+  },
+  {
+    "id": "0d724061-2430-45d5-bcb7-bc5002093426",
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/componentTree.js",
+    "meta": {
+      "pkg": "@atrilabs/react-component-manifests",
+      "key": "Button",
+      "manifestSchemaId": "@atrilabs/react-component-manifest-schema"
+    },
+    "state": {
+      "parent": {
+        "id": "templateRoot",
+        "index": 0
+      },
+      "alias": "Reservate_btn"
+    }
+  }
+]
